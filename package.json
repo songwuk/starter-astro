@@ -1,0 +1,24 @@
+{
+  "name": "os-big-people",
+  "type": "module",
+  "version": "0.0.1-alpha.0",
+  "scripts": {
+    "dev": "ENV=dev astro dev",
+    "start": "ENV=dev astro dev",
+    "build:dev": "ENV=dev astro build",
+    "build:sit": "ENV=sit astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/vue": "^2.1.1",
+    "@unocss/astro": "^0.52.3",
+    "@unocss/reset": "^0.52.3",
+    "astro": "^2.3.0",
+    "unocss": "^0.52.3",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@unocss/preset-rem-to-px": "^0.52.3"
+  }
+}
